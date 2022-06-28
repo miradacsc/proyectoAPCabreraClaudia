@@ -11,6 +11,21 @@ h2, h3{
 }
 
 img{
-    width: 110px;
+    width: 112px;
     padding-top: 7px;
+}
+
+.titulo{
+    padding-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+@media (max-width:575px) {
+    .img-edu{
+        width: 50%;
+    }
 }

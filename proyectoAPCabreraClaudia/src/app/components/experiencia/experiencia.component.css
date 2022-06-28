@@ -9,3 +9,12 @@ div{
 h1, h3{
     display: inline;
 }
+
+.titulo{
+    padding-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}

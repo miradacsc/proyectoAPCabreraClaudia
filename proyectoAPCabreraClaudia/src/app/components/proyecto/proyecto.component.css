@@ -10,8 +10,19 @@
 .parte1, .parte2{
     display: inline-block;
     text-align: justify;
+    padding-left: 1em;
 }
 
 .img-proyecto{
     box-shadow: 10px 10px 30px #000000;
+}
+
+.titulo{
+    padding-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.subtitulo{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #26358c;
 }
