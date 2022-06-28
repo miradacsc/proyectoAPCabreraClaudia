@@ -3,9 +3,14 @@
 }
 
 div{
-    background-color: #a1b5cb;
+    background-color: #d5d5e3;
 }
 
-h1, h3{
+h2, h3{
     display: inline;
+}
+
+img{
+    width: 110px;
+    padding-top: 7px;
 }
