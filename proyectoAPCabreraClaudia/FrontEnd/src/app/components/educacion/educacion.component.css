@@ -6,14 +6,14 @@ div{
     background-color: #d5d5e3;
 }
 
-h2, h3{
+h1, h3{
     display: inline;
 }
 
-img{
+/*img{
     width: 112px;
     padding-top: 7px;
-}
+}*/
 
 .titulo{
     padding-bottom: 10px;
@@ -24,8 +24,8 @@ ul{
     list-style-type: none;
 }
 
-@media (max-width:575px) {
+/*@media (max-width:575px) {
     .img-edu{
         width: 50%;
     }
-}
+}*/
