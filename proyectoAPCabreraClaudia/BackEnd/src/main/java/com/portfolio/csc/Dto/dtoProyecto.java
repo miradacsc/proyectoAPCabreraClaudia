@@ -21,6 +21,7 @@ public class dtoProyecto {
     @NotBlank
     private String linkP;
 
+    //constructor
     public dtoProyecto() {
     }
 
@@ -30,7 +31,8 @@ public class dtoProyecto {
         this.fechaP = fechaP;
         this.linkP = linkP;
     }
-
+    
+    //getter and setter
     public String getNombreP() {
         return nombreP;
     }
