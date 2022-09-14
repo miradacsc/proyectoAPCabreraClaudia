@@ -1,0 +1,17 @@
+.container {
+    background-color: #d5d5e3;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    border: 2px #54545e solid;
+    margin-top: 3em;
+    box-shadow: 5px 10px ;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+
+button {
+    margin: 10px;
+}

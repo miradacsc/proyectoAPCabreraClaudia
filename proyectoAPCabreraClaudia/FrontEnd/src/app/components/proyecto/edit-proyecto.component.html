@@ -1,4 +1,4 @@
-<div class="container" *ngIf="proyecto">
+<div class="container col-md-5" *ngIf="proyecto">
     <div class="row">
         <div>
             <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
@@ -9,6 +9,14 @@
                 <div class="form-group">
                     <label for="descripcionP">Descripcion del proyecto</label>
                     <input type="text" class="form-control" id="descripcionP" name="descripcionP" [(ngModel)]="proyecto.descripcionP" required>
+                </div>
+                <div class="form-group">
+                    <label for="fechaP">Año del proyecto</label>
+                    <input type="text" class="form-control" id="fechaP" name="fechaP" [(ngModel)]="proyecto.fechaP" required>
+                </div>
+                <div class="form-group">
+                    <label for="linkP">Link del proyecto</label>
+                    <input type="file" class="form-control" id="linkP" name="linkP" [(ngModel)]="proyecto.linkP" required>
                 </div>
                 <button class="btn btn-primary">
                     Editar proyecto

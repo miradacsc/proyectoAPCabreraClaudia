@@ -1,8 +1,8 @@
 <div class="row">
     <h1 class="titulo">Proyectos realizados</h1>
     <div class=".col-lg-2">
-        <button type="button" class="btn btn-dark" routerLink="/nuevoproy/" *ngIf="isLogged">
-            Agregar Proyecto
+        <button type="button" class="btn btn-success" routerLink="/nuevoproy/" *ngIf="isLogged">
+            Nuevo Proyecto <i class="bi bi-plus"></i>
         </button>
     </div>
 
@@ -15,6 +15,9 @@
                         <h3>{{Proyecto.nombreP}}</h3>
                     </td>
                     <td><h4>{{Proyecto.descripcionP}}</h4></td>
+                    <td><h4>{{Proyecto.fechaP}}</h4></td>
+                    <td><h4><a href="" target="_blank">{{Proyecto.linkP}}</a></h4></td>
+
                     <td *ngIf="isLogged">
                         <button class="btn btn-light" routerLink="/editproy/{{Proyecto.id}}">
                             <i class="bi bi-pencil-fill"></i> EDITAR</button>

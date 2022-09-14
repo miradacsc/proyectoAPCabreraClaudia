@@ -1,9 +1,19 @@
 .row {
     background-color: #d5d5e3;
     padding: 20px;
+    
 }
+
 
 .titulo{
     padding-bottom: 10px;
     font-family: 'Oswald', sans-serif;
 }
+
+
+.circulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
